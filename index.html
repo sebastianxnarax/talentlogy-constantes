@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Constantes</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="title">prueba de Constantes</h1>
+    </div>
+    <div>
+      <ol>
+        <li>
+          <p>
+            Número Entero Escribe un programa que pida un número entero, y
+            conteste al usuario: “Has introducido el número (x), gracias”.
+          </p>
+          <input type="button" id="respuesta1" value="respuesta 1" />
+        </li>
+        <li>
+          <p>
+            Descuento en Precio Escribe un programa que pregunte el precio, el
+            tanto por ciento de descuento, y te diga el precio con descuento.
+            Por ejemplo, si el precio que introduce el usuario es 300 y el
+            descuento 20%, el programa dirá que el precio final con descuento es
+            de 240.
+          </p>
+          <input type="button" id="respuesta2" value="respuesta 2" />
+        </li>
+        <li>
+          <p>
+            Cambio de Dólares a Euros Suponiendo que 1 euro = 1.33250 dólares.
+            Escribe un programa que pida al usuario un número de dólares y
+            calcule el cambio en euros.
+          </p>
+          <input type="button" id="respuesta3" value="respuesta 3" />
+        </li>
+        <li>
+          <p>
+            Media de Cuatro Números Escribir un programa que pida por teclado
+            cuatro números y calcule y presente la media de los cuatro.
+          </p>
+          <input type="button" id="respuesta4" value="respuesta 4" />
+        </li>
+        <li>
+          <p>
+            Resistencia Equivalente en Paralelo Escribir un programa que pida
+            por teclado dos resistencias y calcule y presente la resistencia
+            equivalente en paralelo (Req=(R1*R2)/(R1+R2)).
+          </p>
+          <input type="button" id="respuesta5" value="respuesta 5" />
+        </li>
+        <li>
+          <p>
+            Diferencia entre Variable y Constante ¿Cuál es la diferencia entre
+            una variable y una constante?
+          </p>
+          
+            <h1 class="title">respuesta 6</h1>
+            <ol>
+              <li>
+                <h1>Mutabilidad:</h1>
+                <ul>
+                  <li>
+                    <h3>Variable:</h3>
+                    <span>
+                      Puedes cambiar el valor de una variable después de haberla
+                      declarado usando let o var. Es decir, puedes reasignar un
+                      nuevo valor a una variable.
+                    </span>
+                  </li>
+                  <li>
+                    <h3>Constante:</h3>
+                    <span>
+                      Una vez que asignas un valor a una constante usando const,
+                      no puedes reasignar un nuevo valor a esa constante. La
+                      constante siempre mantiene el mismo valor.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h1>Alcance:</h1>
+                <ul>
+                  <li>
+                    <h3>Variable:</h3>
+                    <span>
+                      Las variables declaradas con var o let tienen un alcance
+                      de bloque, de función o global, dependiendo de dónde se
+                      declaren.
+                    </span>
+                  </li>
+                  <li>
+                    <h3>Constante:</h3>
+                    <span>
+                      Las constantes declaradas con const también tienen un
+                      alcance de bloque, de función o global, pero no pueden ser
+                      redeclaradas en el mismo alcance.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h1>Hoisting:</h1>
+                <ul>
+                  <li>
+                    <h3>Variable:</h3>
+                    <span>
+                      Las variables declaradas con var son elevadas (hoisted) al
+                      principio de su contexto de ejecución. Esto significa que
+                      puedes usar la variable antes de su declaración.
+                    </span>
+                  </li>
+                  <li>
+                    <h3>Constante:</h3>
+                    <span>
+                      Las constantes declaradas con const y let también están
+                      elevadas, pero no puedes acceder a ellas antes de su
+                      declaración.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <h1>En resumen</h1>
+              <p>
+                las variables (let y var) pueden cambiar de valor y son
+                elevadas, mientras que las constantes (const) no pueden cambiar
+                de valor y también son elevadas. La elección entre el uso de
+                variables o constantes depende de si planeas cambiar el valor de
+                la referencia y de si deseas enfatizar la inmutabilidad del
+                valor.
+              </p>
+            </ol>
+        </li>
+        <li>
+          <p>Uso de Variables y Constantes ¿Cuándo se deberían usar?</p>
+          
+            <h1 class="title">respuesta 7</h1>
+            <p>En JavaScript, la elección entre variables (let o var) y constantes (const) depende de si se espera que el valor cambie durante la ejecución del programa. Las variables son adecuadas cuando se necesita reasignar valores, mientras que las constantes son ideales para valores inmutables. El uso de const ayuda a prevenir reasignaciones accidentales y facilita la identificación de datos inmutables. Además, ambas tienen alcance de bloque, pero las variables declaradas con var se elevan al principio de su contexto de ejecución, permitiendo el hoisting. Se recomienda priorizar el uso de const y cambiar a let solo cuando se prevé que el valor cambiará. En resumen, la elección entre variables y constantes se basa en la naturaleza de los datos y la necesidad de inmutabilidad.</p>
+        </li>
+      </ol>
+    </div>
+    <script src="respuestas.js"></script>
+  </body>
+</html>

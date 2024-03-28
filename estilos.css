@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+input {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px; /* Ajustar el tamaño del padding para reducir el tamaño del botón */
+    margin-top: 20px;
+    align-self: center; /* Esto alinea verticalmente, pero no es necesario aquí */
+    display: block; /* Convertir el botón en un bloque para centrarlo horizontalmente */
+    margin-left: auto; /* Centrar el botón horizontalmente */
+    margin-right: auto; /* Centrar el botón horizontalmente */
+}
+
+input:hover{
+    background-color: rgb(164, 255, 160);
+}
+ol {
+   
+    list-style-type:decimal;
+    padding: 0;
+}
+
+li {
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.title {
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+span {
+    color: #555;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
